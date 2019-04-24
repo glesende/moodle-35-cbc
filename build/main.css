@@ -7649,7 +7649,7 @@ ion-alert input {
   position: relative;
   overflow: hidden;
   font-weight: 500;
-  text-transform: uppercase;
+  text-transform: none;
   color: #304356;
   background-color: transparent;
   margin: 0 8px 0 0;
@@ -8464,7 +8464,7 @@ ion-footer {
 }
 
 [text-uppercase] {
-  text-transform: uppercase !important;
+  text-transform: none !important;
 }
 
 [text-lowercase] {
@@ -8477,7 +8477,7 @@ ion-footer {
 
 @media (min-width: 576px) {
   [text-sm-uppercase] {
-    text-transform: uppercase !important;
+    text-transform: none !important;
   }
   [text-sm-lowercase] {
     text-transform: lowercase !important;
@@ -8489,7 +8489,7 @@ ion-footer {
 
 @media (min-width: 768px) {
   [text-md-uppercase] {
-    text-transform: uppercase !important;
+    text-transform: none !important;
   }
   [text-md-lowercase] {
     text-transform: lowercase !important;
@@ -8501,7 +8501,7 @@ ion-footer {
 
 @media (min-width: 992px) {
   [text-lg-uppercase] {
-    text-transform: uppercase !important;
+    text-transform: none !important;
   }
   [text-lg-lowercase] {
     text-transform: lowercase !important;
@@ -8513,7 +8513,7 @@ ion-footer {
 
 @media (min-width: 1200px) {
   [text-xl-uppercase] {
-    text-transform: uppercase !important;
+    text-transform: none !important;
   }
   [text-xl-lowercase] {
     text-transform: lowercase !important;
@@ -9318,7 +9318,7 @@ button[disabled],
   height: 3.6rem;
   font-size: 1.4rem;
   font-weight: 500;
-  text-transform: uppercase;
+  text-transform: none;
   color: #fff;
   background-color: #304356;
   -webkit-box-shadow: 0 2px 2px 1px rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
@@ -21295,7 +21295,7 @@ ion-list[inset] {
   font-size: 1.2rem;
   font-weight: 500;
   letter-spacing: 0.1rem;
-  text-transform: uppercase;
+  text-transform: none;
   color: #333;
   background: transparent;
 }
@@ -25174,7 +25174,7 @@ ion-segment {
   font-size: 1.2rem;
   font-weight: 500;
   line-height: 4rem;
-  text-transform: uppercase;
+  text-transform: none;
   color: #0064d2;
   background-color: transparent;
   opacity: 0.7;
@@ -25310,7 +25310,7 @@ ion-segment {
   font-size: 1.3rem;
   font-weight: bold;
   line-height: 4rem;
-  text-transform: uppercase;
+  text-transform: none;
   color: #3a3a3a;
   background-color: transparent;
   opacity: 0.5;
@@ -32793,7 +32793,7 @@ ion-navbar.toolbar {
   border: 0;
   font-size: 1.4rem;
   font-weight: 500;
-  text-transform: uppercase;
+  text-transform: none;
 }
 
 .bar-button-solid-md,
@@ -36477,7 +36477,7 @@ ion-navbar.toolbar {
 .toolbar-title-wp {
   font-size: 1.5rem;
   font-weight: bold;
-  text-transform: uppercase;
+  text-transform: none;
   color: #fff;
   padding: 0 6px;
 }
@@ -36527,7 +36527,7 @@ ion-navbar.toolbar {
   border: 0;
   font-size: 1.4rem;
   font-weight: 500;
-  text-transform: uppercase;
+  text-transform: none;
 }
 
 .bar-button-solid-wp,
